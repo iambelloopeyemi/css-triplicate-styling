@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS triplicate styling</title>
+    
+    <link rel="stylesheet" href="./style.css">
+    
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        img {
+            height: 50px;
+            width: 100px;
+        }
+
+        .first_color {
+            color: red;
+        }
+
+        .second_color {
+            color: blue;
+        }
+
+        .third_color {
+            color: green;
+        }
+
+        .fourth_color {
+            color: yellow;
+        }
+
+        .fifth_color {
+            color: orange;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <h1>External CSS</h1>
+    
+    <h3>List of 5 colors</h3>
+
+    <ul>
+        <li><span class="first_color_one">Red</span> <img src="./images/red-car.jpg" alt="A Red Car"></li>
+        <li><span class="second_color_one">Blue</span> <img src="./images/blue-car.jpg" alt="A Blue Car"></li>
+        <li><span class="third_color_one">Green</span> <img src="./images/green-car.jpg" alt="A Green Car"></li>
+        <li><span class="fourth_color_one">Yellow</span> <img src="./images/yellow-car.jpg" alt="A Yellow Car"></li>
+        <li><span class="fifth_color_one">Orange</span> <img src="./images/orange-car.jpg" alt="An Orange Car"></li>
+    </ul>
+
+    <h1>Internal CSS</h1>
+    
+    <h3>List of 5 colors</h3>
+
+    <ul>
+        <li><span class="first_color">Red</span> <img src="./images/red-car.jpg" alt="A Red Car"></li>
+        <li><span class="second_color">Blue</span> <img src="./images/blue-car.jpg" alt="A Blue Car"></li>
+        <li><span class="third_color">Green</span> <img src="./images/green-car.jpg" alt="A Green Car"></li>
+        <li><span class="fourth_color">Yellow</span> <img src="./images/yellow-car.jpg" alt="A Yellow Car"></li>
+        <li><span class="fifth_color">Orange</span> <img src="./images/orange-car.jpg" alt="An Orange Car"></li>
+    </ul>
+
+    
+    <h1 style="text-align: center;">In-line CSS</h1>
+    
+    <h3>List of 5 colors</h3>
+
+    <ul>
+        <li><span style="color:red">Red</span> <img  height="50px" width="100px" src="./images/red-car.jpg" alt="A Red Car"></li>
+        <li><span style="color:blue">Blue</span> <img height="50px" width="100px" src="./images/blue-car.jpg" alt="A Blue Car"></li>
+        <li><span style="color:green">Green</span> <img height="50px" width="100px" src="./images/green-car.jpg" alt="A Green Car"></li>
+        <li><span style="color:yellow">Yellow</span> <img height="50px" width="100px" src="./images/yellow-car.jpg" alt="A Yellow Car"></li>
+        <li><span style="color:orange">Orange</span> <img height="50px" width="100px" src="./images/orange-car.jpg" alt="An Orange Car"></li>
+    </ul>
+    
+    
+</body>
+</html>

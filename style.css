@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+img {
+    height: 50px;
+    width: 100px;
+}
+
+.first_color_one {
+    color: red;
+}
+
+.second_color_one {
+    color: blue;
+}
+
+.third_color_one {
+    color: green;
+}
+
+.fourth_color_one {
+    color: yellow;
+}
+
+.fifth_color_one {
+    color: orange;
+}
